@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, black, rgb(50, 50, 255));
+    background-attachment: fixed;
+    color: white;
+    font-family: Nunito;
+}
+div{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+p{
+    margin-bottom: 10px;
+}
+img, video{
+    width: 100%;
+}
+.div3 p, .div4 p, .div3 img, .div4 img, .div6 img, .div6 p, .div7 img, .div7 p{
+    width: 75%;
+}
+.div3, .div6{
+    text-align: left;
+}
+.div4, .div7{
+    text-align: right;
+}
+.div4 p, .div7 p{
+    margin-left: 25%;
+}
+h1, h2, b{
+    color: yellow;
+}
+button{
+    width: 80%;
+    padding: 25px;
+    background-color: yellow;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    animation: jump 1s infinite;
+    font-family: Nunito;
+    margin-left: 15px;
+}
+@keyframes jump {
+    50%{
+        transform: translate(-15px);
+    }
+    
+}
+.div14{
+    margin-bottom: 20px;
+}
