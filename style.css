@@ -37,6 +37,9 @@ img, video{
 h1, h2, b{
     color: yellow;
 }
+p{
+    font-weight: bolder;
+}
 button{
     width: 80%;
     padding: 25px;
